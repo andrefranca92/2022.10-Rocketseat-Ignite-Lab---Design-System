@@ -22,4 +22,12 @@ export const Large:StoryObj<TextProps> = {
   }
 }
 
-// PAREI EM 49:45 na aula 2
+export const CustomComponent:StoryObj<TextProps> = {
+  args: {
+    size: 'lg',
+    asChild: true,
+    children: (
+      <p>Testando</p>
+    )
+  }
+}
